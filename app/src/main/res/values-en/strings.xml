@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="strBienvenida">Welcome</string>
+    <string name="strEntrar">Enter</string>
+    <string name="app_name">"Android Fundamentals "</string>
+</resources>

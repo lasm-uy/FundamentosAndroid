@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.maldonadopato91.com.maldonadopapp1.MainActivity"
+    android:background="@drawable/marciano">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBienvenida"
+        android:id="@+id/textView"
+        android:layout_marginTop="62dp"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strEntrar"
+        android:id="@+id/button"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/button_design"
+        android:singleLine="false"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:typeface="normal"
+        android:contextClickable="false"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:capitalize="none" />
+
+</RelativeLayout>
